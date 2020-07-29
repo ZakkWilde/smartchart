@@ -1,0 +1,13 @@
+<mvc:View controllerName="ovly.hanadeveloper.SmartChart.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:sc="sap.ui.comp.smartchart" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<sc:SmartChart enableAutoBinding="true" entitySet="ZT48_16_C_SALES_BY_QUARTER" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
